@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        font-family: 'Hind Vadodara', sans-serif;
+    }
+}
+
+@layer components {
+    .bento-item {
+        @apply min-h-40 lg:min-h-52 col-span-2 lg:col-span-1 w-[100%] rounded-[18px] lg:min-w-60 lg:min-h-52 bg-center bg-cover flex flex-col shadow-2xl border-[1px] border-[rgba(0,0,0,.08)];
+    }
+
+    .btn {
+        @apply hover:scale-110;
+    }
+}
