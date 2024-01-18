@@ -736,20 +736,20 @@ body {
   background-image: url(/assets/img/fb.png);
 }
 
-.bg-\[url\(\/assets\/img\/github-bg\.png\)\] {
-  background-image: url(/assets/img/github-bg.png);
+.bg-\[url\(\/assets\/img\/twitter-bg\.png\)\] {
+  background-image: url(/assets/img/twitter-bg.png);
 }
 
-.bg-\[url\(\/assets\/img\/giving\.png\)\] {
-  background-image: url(/assets/img/giving.png);
+.bg-\[url\(\/src\/assets\/img\/github-bg\.png\)\] {
+  background-image: url(/src/assets/img/github-bg.png);
 }
 
-.bg-\[url\(\/assets\/img\/wp-remote-work\.png\)\] {
-  background-image: url(/assets/img/wp-remote-work.png);
+.bg-\[url\(\/src\/assets\/img\/giving\.png\)\] {
+  background-image: url(/src/assets/img/giving.png);
 }
 
-.bg-\[url\(\/assets\/img\/x\.png\)\] {
-  background-image: url(/assets/img/x.png);
+.bg-\[url\(\/src\/assets\/img\/wp-remote-work\.png\)\] {
+  background-image: url(/src/assets/img/wp-remote-work.png);
 }
 
 .bg-gradient-to-r {

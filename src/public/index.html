@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="stylesheet" href="globals.css">
+  <link rel="stylesheet" href="./assets/css/globals.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara&display=swap" rel="stylesheet">
@@ -12,6 +12,9 @@
 </head>
 
 <body class="scroll-smooth">
+  <header>
+    <div></div>
+  </header>
   <section class="lg:flex m-10 p-10">
     <div class="lg:w-[80%] lg:min-h-[100%] ">
       <div class="lg:fixed flex flex-col gap-10 lg:gap-40">
@@ -28,7 +31,7 @@
     <div class="mt-20 lg:mt-0">
       <h1 class="text-xl mb-3 animate-fade">Welcome 👋</h1>
       <div class="grid grid-cols-2 gap-5">
-        <div class="col-span-2 lg:col-span-1 row-span-2 bento-item bg-[url(/assets/img/giving.png)] animate-fade">
+        <div class="col-span-2 lg:col-span-1 row-span-2 bento-item animate-fade" style="background-image: url(./assets/img/giving.png);">
           <div class="flex items-end h-[100%] p-16 rounded-[18px]" style="background-color: rgb(0,0,0,0.5);"><h1 class="text-white text-2xl font-semibold">"Ketika aku takut memberi, aku lupa bahwa semua yang aku miliki adalah pemberian"
           </h1></div>
         </div>
@@ -38,7 +41,7 @@
           </div>
         </div>
         <div class="bento-item animate-fade">
-          <div class="flex content-between h-[100%] p-4 justify-between rounded-[18px] bg-[url(/assets/img/fb.png)] bg-left-top">
+          <div class="flex content-between h-[100%] p-4 justify-between rounded-[18px] bg-left-top" style="background-image: url(./assets/img/fb.png);">
             <div>
               <img src="https://cdn.usbrandcolors.com/images/logos/facebook-logo.svg" alt="" width="50px" height="50px">
               <h1>fb.com/RizaArdiyanto1412</h1>
@@ -50,7 +53,7 @@
         </div>
         <div class="bento-item bg-black animate-fade">
           <!-- for some reason, I cannot use bg-[url(/assets/img/twitter-bg.png)] here, so I use style -->
-          <div class="flex content-between h-[100%] p-4 justify-between rounded-[18px]" style="background-image: url(/assets/img/twitter-bg.png);">
+          <div class="flex content-between h-[100%] p-4 justify-between rounded-[18px]" style="background-image: url(./assets/img/twitter-bg.png);">
             <div>
               <img src="/assets/img/twitter-bg.png" alt="" width="50px" height="50px">
               <h1 class="text-white">@rizaardiyanto</h1>
@@ -61,9 +64,9 @@
           </div>
         </div>
         <div class="bento-item animate-fade">
-          <div class="flex content-between h-[100%] p-4 justify-between rounded-[18px] bg-[url(/assets/img/github-bg.png)]">
+          <div class="flex content-between h-[100%] p-4 justify-between rounded-[18px]" style="background-image: url(./assets/img/github-bg.png);">
             <div>
-              <img src="/assets/img/github.png" alt="" width="50px" height="50px">
+              <img src="./assets/img/github.png" alt="" width="50px" height="50px">
               <h1>rizardiyanto1412</h1>
             </div>
             <div class="flex">
@@ -72,7 +75,7 @@
           </div>
         </div>
         <div class="bento-item col-span-2 animate-fade">
-          <div class="h-full bg-center bg-cover bg-no-repeat rounded-[18px] bg-[url(/assets/img/wp-remote-work.png)]">
+          <div class="h-full bg-center bg-cover bg-no-repeat rounded-[18px] " style="background-image: url(./assets/img/wp-remote-work.png);">
             <div class="flex p-4 justify-between">
               <div class="flex items-center gap-2">
                 <span class="animate-pulse rounded-full w-2 h-2 bg-slate-600"></span>
@@ -92,7 +95,7 @@
     </div>
     </div>
   </section>
-  <script type="module" src="/main.js"></script>
+  <script type="module" src="./assets/js/main.js"></script>
 </body>
 
 </html>
