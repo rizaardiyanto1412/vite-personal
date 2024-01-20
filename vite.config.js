@@ -4,8 +4,8 @@ export default defineConfig({
   root: "src/public",
   build: {
     outDir: "../../dist/",
-    rollupOptions: {
-      external: ["canvas-confetti", "typed.js"],
-    },
+  },
+  optimizeDeps: {
+    include: ["canvas-confetti", "typed.js"],
   },
 });
