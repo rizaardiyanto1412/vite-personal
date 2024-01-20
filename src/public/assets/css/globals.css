@@ -732,47 +732,31 @@ body {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\/assets\/img\/fb\.png\)\] {
-  background-image: url(/assets/img/fb.png);
-}
-
 .bg-\[url\(\/assets\/img\/twitter-bg\.png\)\] {
   background-image: url(/assets/img/twitter-bg.png);
-}
-
-.bg-\[url\(\/src\/assets\/img\/github-bg\.png\)\] {
-  background-image: url(/src/assets/img/github-bg.png);
-}
-
-.bg-\[url\(\/src\/assets\/img\/giving\.png\)\] {
-  background-image: url(/src/assets/img/giving.png);
-}
-
-.bg-\[url\(\/src\/assets\/img\/wp-remote-work\.png\)\] {
-  background-image: url(/src/assets/img/wp-remote-work.png);
 }
 
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
-.from-indigo-500 {
-  --tw-gradient-from: #6366f1 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(99 102 241 / 0) var(--tw-gradient-to-position);
+.from-pink-500 {
+  --tw-gradient-from: #ec4899 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(236 72 153 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.via-purple-500 {
-  --tw-gradient-to: rgb(168 85 247 / 0)  var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), #a855f7 var(--tw-gradient-via-position), var(--tw-gradient-to);
-}
-
-.to-pink-500 {
-  --tw-gradient-to: #ec4899 var(--tw-gradient-to-position);
+.to-violet-500 {
+  --tw-gradient-to: #8b5cf6 var(--tw-gradient-to-position);
 }
 
 .bg-cover {
   background-size: cover;
+}
+
+.bg-clip-text {
+  -webkit-background-clip: text;
+          background-clip: text;
 }
 
 .bg-center {
@@ -838,6 +822,10 @@ body {
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-transparent {
+  color: transparent;
 }
 
 .text-white {

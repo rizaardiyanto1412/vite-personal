@@ -6,6 +6,7 @@
     body {
         font-family: 'Hind Vadodara', sans-serif;
     }
+   
 }
 
 @layer components {
@@ -16,4 +17,6 @@
     .btn {
         @apply hover:scale-110;
     }
+
+    
 }
